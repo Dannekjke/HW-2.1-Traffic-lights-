@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SFm-xd-if0">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFm-xd-if0">
                                 <rect key="frame" x="20" y="444" width="374" height="369"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eiM-oX-iUz">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eiM-oX-iUz">
                                 <rect key="frame" x="20" y="70" width="374" height="354"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
@@ -35,6 +35,7 @@
                             <constraint firstItem="eiM-oX-iUz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="hg0-Bg-gLT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eiM-oX-iUz" secondAttribute="trailing" constant="20" id="nDe-8r-biw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SFm-xd-if0" secondAttribute="bottom" constant="49" id="oDI-TD-bby"/>
+                            <constraint firstItem="SFm-xd-if0" firstAttribute="height" secondItem="eiM-oX-iUz" secondAttribute="height" multiplier="1.04237" id="y8l-dk-iMl"/>
                         </constraints>
                     </view>
                 </viewController>
